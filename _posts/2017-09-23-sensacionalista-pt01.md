@@ -315,7 +315,7 @@ df_comments_unnested %>%
 ## 1.19          1     rola
 {% endhighlight %}
 
-*De novo esse comentário... *
+De novo esse comentário...
 
 Enfim, veja que foi criada uma linha para cada palavra presetnte no comentário. Será essa nova coluna `term` que usaremos como referência para quantificar o sentimento de um comentário.
 
