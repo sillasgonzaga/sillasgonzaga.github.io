@@ -7,5 +7,12 @@ KnitPost <- function(input, base.url = "/") {
   opts_chunk$set(fig.path = fig.path)
   opts_chunk$set(fig.cap = "center")
   render_jekyll()
-  knit(input, envir = parent.frame())
+  output.file <- tools::file_path_sans_ext(basename(input))
+  current.time <- as.character(Sys.Date())
+  output.file <- paste0(current.time,  "-", output.file, ".md")
+  output.file <- paste0(dirname(input), "/", output.file)
+  knit(input, output = output.file, envir = parent.frame())
 }
+
+
+KnitPost("/home/sillas/R/Projetos/PaixaoPorDados/rmd files/sensacionalista-pt01.Rmd")
