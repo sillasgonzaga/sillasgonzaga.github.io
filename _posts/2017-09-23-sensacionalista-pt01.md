@@ -1,6 +1,6 @@
 ---
 title: "O Sensacionalista e Text Mining: Análise de sentimento usando o lexiconPT"
-date: "23 setembro, 2017"
+date: "September 23, 2017"
 layout: post
 comments: true
 output:
