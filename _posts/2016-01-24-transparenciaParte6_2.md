@@ -12,10 +12,6 @@ output:
 
 [Para quem não entendeu a referência.](https://en.wikipedia.org/wiki/We_are_the_99%25)
 
-
-
-
-
 {% highlight r %}
 library(ggplot2)
 library(dplyr)
