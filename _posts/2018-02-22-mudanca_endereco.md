@@ -8,5 +8,5 @@ output:
     variant: markdown_phpextra+backtick_code_blocks
 ---
 
-Este endereço está descontinuado. Para acessar meu blog, favor acessar [este link](www.sillasgonzaga.com).
+Este endereço está descontinuado. Para acessar meu blog, favor acessar [este link](http://sillasgonzaga.com/).
 
